@@ -1,0 +1,55 @@
+@import "particels/reset";
+@import "particels/colori";
+@import "particels/font";
+@import "particels/spaziature";
+@import "particels/bottoni";
+@import "particels/animazioni";
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: #ff8700;
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+	.logo img {
+		width: 100%;
+	}
+	ul {
+		display: flex;
+	}
+}
+.hero {
+	display: flex;
+	div:nth-child(2) {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		div {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+	div:first-child {
+		width: 800px;
+		height: 350px;
+	}
+	div img {
+		width: 100%;
+	}
+}
+section {
+	display: flex;
+	justify-content: space-around;
+
+	div img {
+		width: 100%;
+	}
+}
+
+.box {
+	width: 250px;
+	height: 250px;
+}

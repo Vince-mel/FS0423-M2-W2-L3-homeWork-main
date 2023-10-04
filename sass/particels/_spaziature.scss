@@ -1,0 +1,23 @@
+$my-space: (
+	sm: 5px,
+	normal: 15px,
+	md: 30px,
+	lg: 40px,
+	xl: 50px,
+	xxl: 60px,
+);
+
+@each $element, $value in $my-space {
+	.margin-line-#{$element} {
+		margin: 0 $value 0 $value;
+	}
+	.margin-line-#{$element} {
+		margin: $value;
+	}
+	.padding-block-#{$element} {
+		padding: $value;
+	}
+	.padding-line-#{$element} {
+		padding: 0 $value 0 $value;
+	}
+}

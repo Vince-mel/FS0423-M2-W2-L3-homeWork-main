@@ -1,0 +1,197 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+body {
+  color: #f4f4f4;
+}
+
+.hero {
+  background-color: #640fc5;
+}
+
+nav div button:first-child {
+  background-color: #0e6cff;
+}
+nav div button:nth-child(2) {
+  background-color: #ff8700;
+}
+nav div button:last-child {
+  background-color: #4caf50;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.margin-line-sm {
+  margin: 0 5px 0 5px;
+}
+
+.margin-line-sm {
+  margin: 5px;
+}
+
+.padding-block-sm {
+  padding: 5px;
+}
+
+.padding-line-sm {
+  padding: 0 5px 0 5px;
+}
+
+.margin-line-normal {
+  margin: 0 15px 0 15px;
+}
+
+.margin-line-normal {
+  margin: 15px;
+}
+
+.padding-block-normal {
+  padding: 15px;
+}
+
+.padding-line-normal {
+  padding: 0 15px 0 15px;
+}
+
+.margin-line-md {
+  margin: 0 30px 0 30px;
+}
+
+.margin-line-md {
+  margin: 30px;
+}
+
+.padding-block-md {
+  padding: 30px;
+}
+
+.padding-line-md {
+  padding: 0 30px 0 30px;
+}
+
+.margin-line-lg {
+  margin: 0 40px 0 40px;
+}
+
+.margin-line-lg {
+  margin: 40px;
+}
+
+.padding-block-lg {
+  padding: 40px;
+}
+
+.padding-line-lg {
+  padding: 0 40px 0 40px;
+}
+
+.margin-line-xl {
+  margin: 0 50px 0 50px;
+}
+
+.margin-line-xl {
+  margin: 50px;
+}
+
+.padding-block-xl {
+  padding: 50px;
+}
+
+.padding-line-xl {
+  padding: 0 50px 0 50px;
+}
+
+.margin-line-xxl {
+  margin: 0 60px 0 60px;
+}
+
+.margin-line-xxl {
+  margin: 60px;
+}
+
+.padding-block-xxl {
+  padding: 60px;
+}
+
+.padding-line-xxl {
+  padding: 0 60px 0 60px;
+}
+
+.my-color1 {
+  color: #0e6cff;
+}
+
+.my-color2 {
+  color: #ff8700;
+}
+
+.my-color3 {
+  color: #4caf50;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #ff8700;
+}
+nav .logo {
+  width: 50px;
+  height: 50px;
+}
+nav .logo img {
+  width: 100%;
+}
+nav ul {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+}
+.hero div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero div:nth-child(2) div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hero div:first-child {
+  width: 800px;
+  height: 350px;
+}
+.hero div img {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+section div img {
+  width: 100%;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+}/*# sourceMappingURL=style.css.map */
